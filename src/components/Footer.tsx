@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 function Footer() {
@@ -16,66 +17,66 @@ function Footer() {
             <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
             <ul>
               <li>
-                <a
+                <Link
                   href="#"
                   className="hover:text-white transition-colors duration-300"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="hover:text-white transition-colors duration-300"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="hover:text-white transition-colors duration-300"
                 >
                   Courses
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="hover:text-white transition-colors duration-300"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
             <div className="flex space-x-4">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Facebook
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Twitter
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Instagram
-              </a>
+              </Link>
             </div>
           </div>
           <div>
             <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-            <p>New Delhi, India</p>
-            <p>Delhi 10001</p>
+            <p>Lahore , Pakistan</p>
+            <p>Lahore 10001</p>
             <p>Email: info@musicschool.com</p>
             <p>Phone: (123) 456-7890</p>
           </div>
